@@ -1,8 +1,7 @@
-# FingerFlow
+# Minutiae Extractor
+This patch updates and fixes issues in the legacy version of **MinutiaeNet**, improving compatibility with newer dependencies and ensuring smoother model loading, inference, and fingerprint preprocessing. It preserves the original architecture and training logic while resolving broken imports and outdated function calls.
 
-A deep learning-based fingerprint minutiae extraction and classification system. FingerFlow uses neural networks to detect and classify minutiae points in fingerprint images, as well as identify fingerprint cores.
-
-![Detection Results](https://github.com/tourmii/minutiae_extractor/blob/main/assets/patches.png)
+![Detection Results](https://github.com/tourmii/minutiae_extractor/blob/main/assets/result.png)
 
 ## Features
 
@@ -21,7 +20,7 @@ A deep learning-based fingerprint minutiae extraction and classification system.
 
 FingerFlow extracts detailed minutiae patches with precise location and orientation information:
 
-![Minutiae Patches](https://github.com/tourmii/minutiae_extractor/blob/main/assets/minutiae_extract.png)
+![Minutiae Patches](https://github.com/tourmii/minutiae_extractor/blob/main/assets/patches.png)
 
 ## Requirements
 
@@ -85,7 +84,7 @@ extracted_minutiae = extractor.extract_minutiae(image)
 
 The extraction process includes multiple stages:
 
-![Detection Pipeline](https://raw.githubusercontent.com/tourmii/fingerflow/main/demo/detection_results.png)
+![Detection Pipeline](https://github.com/tourmii/minutiae_extractor/blob/main/assets/minutiae_extract.png)
 
 1. **Original Detection**: Initial minutiae detection identifies all potential points
 2. **Otsu Thresholding**: Image segmentation to isolate fingerprint region
