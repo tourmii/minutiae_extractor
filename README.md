@@ -2,7 +2,7 @@
 
 A deep learning-based fingerprint minutiae extraction and classification system. FingerFlow uses neural networks to detect and classify minutiae points in fingerprint images, as well as identify fingerprint cores.
 
-![Detection Results](https://raw.githubusercontent.com/tourmii/fingerflow/main/demo/detection_results.png)
+![Detection Results](https://github.com/tourmii/minutiae_extractor/blob/main/assets/patches.png)
 
 ## Features
 
@@ -21,7 +21,7 @@ A deep learning-based fingerprint minutiae extraction and classification system.
 
 FingerFlow extracts detailed minutiae patches with precise location and orientation information:
 
-![Minutiae Patches](https://raw.githubusercontent.com/tourmii/fingerflow/main/demo/minutiae_patches.png)
+![Minutiae Patches](https://github.com/tourmii/minutiae_extractor/blob/main/assets/minutiae_extract.png)
 
 ## Requirements
 
