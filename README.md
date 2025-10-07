@@ -1,5 +1,5 @@
 # Minutiae Extractor
-This patch updates and fixes issues in the legacy version of **MinutiaeNet**, improving compatibility with newer dependencies and ensuring smoother model loading, inference, and fingerprint preprocessing. It preserves the original architecture and training logic while resolving broken imports and outdated function calls.
+This patch updates and fixes issues in the legacy version of **MinutiaeNet** and **FingerFlow** improving compatibility with newer dependencies and ensuring smoother model loading, inference, and fingerprint preprocessing. It preserves the original architecture and training logic while resolving broken imports and outdated function calls.
 
 ![Detection Results](https://github.com/tourmii/minutiae_extractor/blob/main/assets/result.png)
 
@@ -52,8 +52,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 #### Install FingerFlow
 
 ```bash
-git clone <repository-url>
-cd fingerflow
+git clone https://github.com/tourmii/minutiae_extractor
+cd minutiae_extractor
 
 uv sync
 ```
