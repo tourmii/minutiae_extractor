@@ -1,0 +1,20 @@
+[project]
+name = "fingerflow"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bitstring==3.1.9",
+    "huggingface-hub>=0.35.3",
+    "keras-applications==1.0.8",
+    "matplotlib==3.10.6",
+    "numpy==2.3.3",
+    "opencv-python==4.11.0.86",
+    "pandas==2.2.3",
+    "pylint==2.9.6",
+    "scikit-image>=0.25.2",
+    "scikit-learn==1.6.1",
+    "scipy==1.15.2",
+    "tensorflow==2.20.0",
+]

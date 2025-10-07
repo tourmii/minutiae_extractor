@@ -1,0 +1,11 @@
+bitstring==3.1.9
+Keras-Applications==1.0.8
+matplotlib==3.10.6
+numpy==2.3.3
+opencv-python==4.11.0.86
+pandas==2.2.3
+pylint==2.9.6
+scikit-image
+scikit-learn==1.6.1
+scipy==1.15.2
+tensorflow==2.20.0
